@@ -1,0 +1,121 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  }
+body{
+  background-image: url("../img/fondo.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;/*para que sea estático*/
+  background-position: top right;/*arriba a la derecha*/
+  background-repeat: no-repeat;/*que no se repita el fondo*/
+}
+
+.fondo{
+  background-color: white;
+}
+.color_boton{
+	background-color: white;
+	color:#000;
+	
+	}
+	.color_boton:hover {
+    
+	background-color: white;
+	color:#F96;
+	
+	}
+	.color_boton2{
+	background-color: #EFC17D;
+	color:#000;
+	
+	}
+	.color_boton2,emai:hover {
+    
+	background-color:#333;
+	color:#EFC17D;
+	
+	}
+	
+	
+.logo{
+  margin-top: 25px;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+.floatimg{
+  float: left;
+}
+.chip2{
+  font-size: 16px;
+  line-height: 32px;
+  padding-left: 8px;
+}
+.padding{
+  padding: 15px;
+}
+.autor{
+  border-radius: 150px;
+  -moz-border-radius: 150px;
+  -webkit-border-radius: 150px;
+  /*margin-top: 20px;*/
+}
+.centrartexto{
+  text-align: center;
+}
+
+nav ul a,
+nav .brand-logo {
+  color:#EFC17D;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #EFC17D;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
